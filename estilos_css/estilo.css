@@ -1,11 +1,11 @@
 
 body {
     background-color: white;
-    font-family :  'Oswald' , sans-serif;
+    font-family :  Verdana;
     margin: 0;
 } 
  h1{
-    color: white;
+    color: rgb(29, 23, 23);
     font-size: 3em;
     margin: 0;
     display: inline-block;
@@ -20,8 +20,8 @@ body {
 }
 
  div#encabezado {
-    background-color: #0d6d40;
-    padding: 3px 10%;
+    background-color: #14ac65;
+    padding: 12px 10%;
 }
 
 div#encabezado {
@@ -30,26 +30,77 @@ div#encabezado {
 
 a {
     text-decoration: none;
-    background-color: #0d6d40;
-    color: white;
+    background-color: #14ac65;
+    color: black;
     padding: 10px;
     margin: 10px 20px;
     font-weight: bold;
     border-radius: 6px;
     width: 100px;
     border-left-style: solid;
-    border-left-color: white;
+    border-left-color: black;
     border-right-style: solid;
-    border-right-color: white;
+    border-right-color: black;
     transition: 0.5s;
 }
 
 a:hover {
-    background-color: #209840;
+    background-color: #42db6b;
     padding-left: 20px;
     padding-right: 20px;
     transition: 0.5s; 
 }
+
+
+
+@media screen and (max-width: 1115px) {
+    div#encabezado {
+        padding: 3px 0;
+    }
+}
+
+@media screen and (max-width: 885px) {
+    div#encabezado div.anclar-derecha {
+        display: none;
+
+    }
+ }
 div#contenido-principal {
     padding: 10px 15%;
+}
+div.dibujos {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: #d7cfeb;
+    border-radius: 6px;
+    margin: 15px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: white;
+}
+
+div.dibujos:hover {
+
+    border-color: rgb(98, 180, 113);
+    background-color: rgb(98, 180, 113);
+    color: white;
+    transition: 0.5s;
+
+}
+
+div.dibujos img {
+    width: 100%;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+div#pie-pagina {
+    background-color: #1c2228;
+    padding: 100px 10%;
+    color: white;
+
+}
+.centrado {
+    text-align: center;
 }
