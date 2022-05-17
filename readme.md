@@ -1,1 +1,1 @@
-## hola soy vanessa, esta es mi primera pagina web:)
+## Hola gracias por interesarte en mi arte, aprecio eso,:) 
